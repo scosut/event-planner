@@ -1,0 +1,3 @@
+# Event Planning
+
+This application improves the method of organizing a group trip. Original process required event coordinator create seating chart, place cards, and table tents from scratch using word processing program. New process has coordinator enter list of participant names and assign seating graphically from which essential documents are generated automatically. List can be modified at any time.
