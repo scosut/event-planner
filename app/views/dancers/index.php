@@ -54,6 +54,7 @@
 		</ul>
 		<?php endif; ?>
 	</div>
+	<div class="flex-grow-1"></div>
 </section>
 
 <?php if ($page_count > 1): ?>

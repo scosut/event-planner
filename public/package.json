@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "compile:sass": "node-sass sass/main.scss --output-style expanded > css/style.css",
-    "prefix:css": "postcss css/style.css -u autoprefixer -o css/style.css"
+    "prefix:css": "postcss css/style.css -u autoprefixer -o css/style.css",
+    "prefix:css2": "postcss css/App.css -u autoprefixer -o css/App.css"
   },
   "author": "",
   "license": "ISC",

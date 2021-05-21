@@ -21,6 +21,7 @@
 			<button type="submit" class="btn">Print</button>
 		</form>
 	</div>
+	<div class="flex-grow-1"></div>
 </section>
 
 <?php require APP_ROOT."/views/inc/footer.php"; ?>

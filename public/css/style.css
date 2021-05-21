@@ -9,17 +9,10 @@
 /* base styles */
 html {
   font-size: 10px;
-  height: 100%;
 }
 
 body {
   color: #7f7f7f;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.2;
-}
-
-body.dashboard-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +20,10 @@ body.dashboard-body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  min-height: 100vh;
 }
 
 a {
@@ -36,6 +32,12 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
+}
+
+.flex-grow-1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 /* utility styles */
@@ -322,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 501px) {
   #welcome {
-    margin: 7.5% 0 0 7.5%;
+    margin: 7.5% 0 7.5% 7.5%;
     padding: 3.2rem;
   }
 }

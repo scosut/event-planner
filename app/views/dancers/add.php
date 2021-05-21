@@ -11,7 +11,8 @@
 		<p>Complete this form to enter a new dancer.</p>
 	</div>
 
-	<?php require "_form.php"; ?>		
+	<?php require "_form.php"; ?>
+	<div class="flex-grow-1"></div>	
 </section>
 
 <?php require APP_ROOT."/views/inc/focus.php"; ?>
