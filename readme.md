@@ -1,3 +1,13 @@
-# Event Planning
+# Event Planner
 
-This application improves the method of organizing a group trip. Original process required event coordinator create seating chart, place cards, and table tents from scratch using word processing program. New process has coordinator enter list of participant names and assign seating graphically from which essential documents are generated automatically. List can be modified at any time.
+This application generates printable materials needed for an annual group trip. An event coordinator enters a list of attendees, assigns their seating graphically, then executes call to action to render the necessary place cards, table tents, and seating chart documents.
+
+### Applied Technologies: 
+- PHP and MySQL support CRUD operations. 
+- MVC architecture provides file structure. 
+- Third-party library implemented for PDF rendering. 
+- JavaScript offers GUI for seat assignment.
+
+[visit website](https://event.projectsbyscott.com)
+
+<img src="https://www.projectsbyscott.com/img/event_screenshot.png" alt="Event Planner" title="Event Planner" />
