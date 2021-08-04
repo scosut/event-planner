@@ -9,7 +9,7 @@
 	<link rel="icon" type="image/png" href="/public/img/favicon.png">
 	<link rel="stylesheet" href="/public/css/style.css">
 </head>
-<body>
+<body <?= !Utility::isActive('/') ? "class=\"fadeIn\"" : ""; ?>>
 	<header id="header"<?= Utility::isActive('/') ? "class=\"fadeIn\"" : " class=\"secondary\""; ?>>
 		<?php require_once "nav.php"; ?>
 		
